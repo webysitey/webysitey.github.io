@@ -1,13 +1,9 @@
-<meta http-equiv="Refresh" content="0; url='https://webysitey.github.io/home.html'" />
+<meta http-equiv="Refresh" content="10; url='https://webysitey.github.io/home.html'" />
 
 # webysitey.github.io
 
 A really crappy website that I made
 
-## Games
-
 <center>
-<a href="Grabanakki.html"><button>Grabanakki</button></a>
+<a href="home.html"><button>Go To Games</button></a>
 </center>
-
-## Other
