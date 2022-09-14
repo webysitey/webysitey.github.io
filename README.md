@@ -30,6 +30,6 @@ $(function(){
 });
 </script>
  
-<button id="button">Load Game "Grabanakki"</button>
+<button id="button">Load Game "Blob Omelette"</button>
 <div id="iframeHolder"></div>
 </center>
