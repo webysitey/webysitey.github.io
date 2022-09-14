@@ -27,4 +27,23 @@ $(function(){
 </script>
  
 <button id="button">Load Game "Grabanakki"</button>
-<div id="iframeHolder"></div></center>
+<div id="iframeHolder"></div>
+</center>
+
+## Game Test 2
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+<iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
