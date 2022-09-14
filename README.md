@@ -31,7 +31,5 @@ $(function(){
 
 ## Game Test 2
 
-      <button class="button1">toggle</button>
- 
- 
-        <iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>
+<button class="button1">toggle</button>
+<iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>
