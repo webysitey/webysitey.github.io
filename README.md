@@ -19,12 +19,18 @@ Game Links:
 
 ## Game Test #2
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<button id="postYourAdd" onclick="postYourAdd()">OPEN</button>
-<iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#button').click(function(){ 
+        if(!$('#iframe').length) {
+                $('#iframeHolder').html('<iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>');
+        }
+    });   
+});
+</script>
+ 
+<button id="button">Button</button>
+<div id="iframeHolder"></div>
 
-### test
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<button id="postYourAdd" onclick="postYourAdd()">OPEN</button>
-<iframe id="forPostyouradd" data-src="http://www.w3schools.com" src="about:blank" width="500" height="200" style="background:#ffffff"></iframe>
+ 
