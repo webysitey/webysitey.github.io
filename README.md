@@ -1,6 +1,7 @@
 # webysitey.github.io
 
 ## Grabanakki
+
 <center>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
 <script type="text/javascript">
@@ -12,6 +13,7 @@ $(function(){
     });   
 });
 </script>
+</center>
 
 ## Test 2
 
