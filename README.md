@@ -12,18 +12,6 @@ $(function(){
     });   
 });
 </script>
- 
-<button id="button">Load Game "Grabanakki"</button>
-<div id="iframeHolder"></div>
-</center>
-
-<button id="button">Load Game "Grabanakki"</button>
-<div id="iframeHolder"></div>
-</center>
-
-<h2 id="game-test-2">Game Test 2</h2>
-
-<p><button onclick="myFunction()">Show/Hide Game</button></p>
 
 ## Test 2
 
