@@ -1,2 +1,3 @@
-theme: jekyll-theme-minima
-title: Test Website
+# Build Settings
+markdown: kramdown
+theme: minima
