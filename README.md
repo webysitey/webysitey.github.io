@@ -13,6 +13,9 @@ $(function(){
     });   
 });
 </script>
+ 
+<button id="button">Load Game "Grabanakki"</button>
+<div id="iframeHolder"></div>
 </center>
 
 ## Test 2
