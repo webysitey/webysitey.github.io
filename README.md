@@ -3,19 +3,7 @@ A really crappy website that I made
 ## Grabanakki
 
 <center>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-    $('#button').click(function(){ 
-        if(!$('#iframe').length) {
-                $('#iframeHolder').html('<iframe frameborder="0" allowfullscreen="true" scrolling="no" src="https://v6p9d9t4.ssl.hwcdn.net/html/4768274/index.html" width="800" height="600" allowtransparency="true"></iframe>');
-        }
-    });   
-});
-</script>
- 
-<button id="button">Load Game "Grabanakki"</button>
-<div id="iframeHolder"></div>
+<a href="Grabanakki.html"><button>Grabanakki</button></a>
 </center>
 
 ## Test 2
