@@ -1,32 +1,50 @@
-<DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
     <head>
-      <style>
-        header {
-          background-color: powderblue;
-          font-family: verdana;
-          font-size: 150%;
-        }
-        .b_line {
-          background_color: #04AA6D;
-          color: white;
-          padding: 1px;
-          border: 1px solid #04AA6D;
-          float: left;
-          font-family: verdana;
-          padding: 10px 24px;
-          cursor: pointer;
-        }
-      </style>
-    <head>
+        <style>
+            body {
+                font-family: monospace;
+                background-color: whitesmoke;
+                margin: 35px;
+            }
+
+            .title {
+                background-color: powderblue;
+                font-family: verdana;
+                font-size: 150%;
+            }
+
+            .button {
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.8s;
+                cursor: pointer;
+            }
+
+            .button1 {
+                background-color: white; 
+                color: black; 
+                border: 2px solid lightslategray;
+            }
+
+            .button1:hover {
+                background-color: lightslategray;
+                color: white;
+            }
+        </style>
+    </head>
     <body>
-      <header>
-        <h1>WebySitey.github.io</h1>
-      </header>
-      <h1>Games</h1>
-      <div class="b_line">
-        <a href="game_pages/Grabanakki.html"><button>Grabanakki</button></a>
-        <button>Test</button>
-      </div>
-    <body
-  <html>
+        <div class="title">
+            <h1 style="font-size: 125%">Welcome to <a href="https://webysitey.github.io">WebySitey</a></h1>
+        </div>
+         <h1>Games</h1>
+          <a href="game_pages/Grabanakki.html"><button class="button button1">Grabanakki</button></a>
+          <button class="button button1">Test</button>
+    </body>
+</html>
